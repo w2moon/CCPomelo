@@ -1,0 +1,188 @@
+﻿生成启动时间为 2013-4-10 18:40:41。
+     1>项目“E:\CCPomelo\proj.win32\CCPomelo.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\CCPomelo.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\fork\extensions /IE:\fork\cocos2dx\kazmath\include /IE:\fork\cocos2dx\platform\win32 /IE:\fork\cocos2dx /IE:\fork\cocos2dx\platform\third_party\win32\pthread /IE:\fork\cocos2dx\include /IE:\fork\cocos2dx\platform\third_party\win32\OGLES /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\CCPomelo.cpp
+         CCPomelo.cpp
+     1>e:\fork\cocos2dx\sprite_nodes\ccspriteframe.h(151): warning C4251: “cocos2d::CCSpriteFrame::m_strTextureFilename”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCSpriteFrame”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\cocoa\ccstring.h(118): warning C4251: “cocos2d::CCString::m_sString”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCString”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\actions\ccactiontween.h(74): warning C4251: “cocos2d::CCActionTween::m_strKey”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCActionTween”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\label_nodes\cclabelttf.h(125): warning C4251: “cocos2d::CCLabelTTF::m_string”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCLabelTTF”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\label_nodes\cclabelatlas.h(92): warning C4251: “cocos2d::CCLabelAtlas::m_sString”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCLabelAtlas”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\label_nodes\cclabelbmfont.h(120): warning C4251: “cocos2d::CCBMFontConfiguration::m_sAtlasName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCBMFontConfiguration”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\label_nodes\cclabelbmfont.h(260): warning C4251: “cocos2d::CCLabelBMFont::m_sFntFile”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCLabelBMFont”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\label_nodes\cclabelbmfont.h(264): warning C4251: “cocos2d::CCLabelBMFont::m_sInitialStringUTF8”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCLabelBMFont”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\menu_nodes\ccmenuitem.h(217): warning C4251: “cocos2d::CCMenuItemFont::m_strFontName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCMenuItemFont”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\particle_nodes\ccparticlesystem.h(178): warning C4251: “cocos2d::CCParticleSystem::m_sPlistFile”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCParticleSystem”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\platform\ccfileutils.h(368): warning C4251: “cocos2d::CCFileUtils::m_searchResolutionsOrderArray”: class“std::vector<_Ty>”需要有 dll 接口由 class“cocos2d::CCFileUtils”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>e:\fork\cocos2dx\platform\ccfileutils.h(374): warning C4251: “cocos2d::CCFileUtils::m_searchPathArray”: class“std::vector<_Ty>”需要有 dll 接口由 class“cocos2d::CCFileUtils”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>e:\fork\cocos2dx\platform\ccfileutils.h(383): warning C4251: “cocos2d::CCFileUtils::m_strDefaultResRootPath”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCFileUtils”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\platform\ccfileutils.h(389): warning C4251: “cocos2d::CCFileUtils::m_fullPathCache”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“cocos2d::CCFileUtils”的客户端使用
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=std::string
+                 ]
+     1>e:\fork\cocos2dx\platform\win32\ccapplication.h(62): warning C4251: “cocos2d::CCApplication::m_resourceRootPath”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCApplication”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\platform\win32\ccapplication.h(63): warning C4251: “cocos2d::CCApplication::m_startupScriptFilename”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCApplication”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\support\user_default\ccuserdefault.h(121): warning C4251: “cocos2d::CCUserDefault::m_sFilePath”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCUserDefault”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\tilemap_parallax_nodes\cctmxobjectgroup.h(69): warning C4251: “cocos2d::CCTMXObjectGroup::m_sGroupName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCTMXObjectGroup”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\tilemap_parallax_nodes\cctmxxmlparser.h(93): warning C4251: “cocos2d::CCTMXLayerInfo::m_sName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCTMXLayerInfo”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\tilemap_parallax_nodes\cctmxxmlparser.h(120): warning C4251: “cocos2d::CCTMXTilesetInfo::m_sName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCTMXTilesetInfo”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\tilemap_parallax_nodes\cctmxxmlparser.h(126): warning C4251: “cocos2d::CCTMXTilesetInfo::m_sSourceImage”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCTMXTilesetInfo”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\tilemap_parallax_nodes\cctmxxmlparser.h(205): warning C4251: “cocos2d::CCTMXMapInfo::m_sTMXFileName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCTMXMapInfo”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\tilemap_parallax_nodes\cctmxxmlparser.h(207): warning C4251: “cocos2d::CCTMXMapInfo::m_sResources”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCTMXMapInfo”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\tilemap_parallax_nodes\cctmxxmlparser.h(209): warning C4251: “cocos2d::CCTMXMapInfo::m_sCurrentString”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCTMXMapInfo”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>e:\fork\cocos2dx\tilemap_parallax_nodes\cctmxlayer.h(183): warning C4251: “cocos2d::CCTMXLayer::m_sLayerName”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“cocos2d::CCTMXLayer”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\CCPomelo\proj.win32\Debug\CCPomelo.lib" /NOLOGO Debug\CCPomelo.obj
+         CCPomelo.vcxproj -> E:\CCPomelo\proj.win32\Debug\CCPomelo.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\CCPomelo.unsuccessfulbuild”。
+         正在对“Debug\CCPomelo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\CCPomelo\proj.win32\CCPomelo.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.53

@@ -1,0 +1,3 @@
+[submodule "libpomelo"]
+	path = libpomelo
+	url = https://github.com/NetEase/libpomelo.git
